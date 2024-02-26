@@ -1,0 +1,123 @@
+/* Chat Container */
+.chat-container {
+  display: none;
+  position: fixed;
+  color: white;
+  bottom: 20px; 
+  right: 20px;
+  border-radius: 5px;
+  background-color: #fff; /* Background color adjusted */
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: calc(100% - 40px); /* Adjusted width */
+  max-height: calc(100% - 40px); /* Adjusted height */
+  overflow-y: auto; /* Added overflow for vertical scrolling */
+  padding: 20px;
+  z-index: 9999;
+}
+
+/* Chat Header */
+.chat-header {
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 1px solid #ccc; 
+  background-color: #8c363e; /* Background color adjusted */
+}
+
+/* Chat Messages */
+.chat-messages {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Message Input */
+#message-input {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Send Button */
+#send-btn {
+  width: 60px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8c363e; /* Background color adjusted */
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Additional Test Button */
+#add_test {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #8c363e; /* Background color adjusted */
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Chat Message Styles */
+.chat-msg,
+.chat-msg-quest,
+.chat-answer,
+.chat-msg-answer {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.chat-msg,
+.chat-msg-quest {
+  background-color: black; /* Background color adjusted */
+  color: white;
+}
+
+.chat-answer,
+.chat-msg-answer {
+  background-color: #f9f9f9; /* Background color adjusted */
+  color: #333; /* Text color adjusted */
+}
+
+/* Chat Add Button */
+.chat-add {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Background color adjusted */
+}
+
+/* Ask Button */
+#ask-btn {
+  width: 60px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8c363e; /* Background color adjusted */
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Close Button */
+#close-btn {
+  width: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: grey; /* Background color adjusted */
+  color: white;
+  cursor: pointer;
+  margin: 0 0 0 280px;
+  text-align: center;
+}
