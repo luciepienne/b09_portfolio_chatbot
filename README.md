@@ -20,7 +20,7 @@ Adapted portfolio with CV and updated datas on author. (option chatbot)
 
 ## How to Run
 Make sure you have created a file key.py and enter your key as such 
-my_key = "Bearer 'your_key'"
+my_key = "'your_key'"
 
 Run the file : api_chat.py
 in another terminal, where you have your index.html file,  run this : python -m http.server 8001
